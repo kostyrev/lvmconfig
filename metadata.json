@@ -1,0 +1,37 @@
+{
+  "dependencies": [
+    {
+      "version_requirement": ">= 0.1.1",
+      "name": "puppetlabs/lvm"
+    },
+    {
+      "version_requirement": ">= 2.2.1",
+      "name": "puppetlabs/stdlib"
+    }
+  ],
+  "summary": "Configure LVM with data from Hiera",
+  "source": "https://github.com/sgzijl/sz-lvmconfig",
+  "description": "Get LVM configuration details from hiera and use\n  puppetlabs-lvm module to setup logical volumes, filesystems & mountpoints.\n  Also provide facts about LVM and mount points that are available and/or\n  accessible on Linux systems.\n",
+  "project_page": "https://github.com/sgzijl/sz-lvmconfig",
+  "author": "Siert Zijl <sgzijl@gmail.com>",
+  "checksums": {
+    "lib/facter/lvmconfig_support.rb": "ad56b0984a1d41b2e616609430024423",
+    "example/hiera_lvmconfig.yaml": "561727e2a5cd42b41a2ec838a85b315a",
+    "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "lib/facter/lvmconfig_mounts.rb": "009c14013db4c331d21d7f7e87b73a2a",
+    "Modulefile": "7579445e91733f56ffd27e88cbe645b8",
+    "example/hiera_lvmconfig.json": "bd5bf4a36aa23c33ee95d38d70d62921",
+    "tests/init.pp": "0d99ca2bedceae809c00e2a61e7a66bb",
+    "manifests/vgconfig.pp": "6aefd7bd924f35ad3b338d6250b63ee9",
+    "README.markdown": "09c405b713162123da4d44d54d70a111",
+    "spec/spec_helper.rb": "ca19ec4f451ebc7fdb035b52eae6e909",
+    "manifests/lvconfig.pp": "d9ef274a44f48b854985ce5db37919cf",
+    "manifests/init.pp": "faba5f78ec0417918222e1ed4e3d108b"
+  },
+  "types": [
+
+  ],
+  "license": "Apache 2.0",
+  "version": "0.0.2",
+  "name": "sz-lvmconfig"
+}
